@@ -1,0 +1,31 @@
+<div class="header">
+  <div class="category-container">
+    <div *ngFor="let category of categories" class="category-card" (click)="showSubProducts(category)">
+      <img [src]="category.image" alt="{{ category.name }}" />
+      <h3 style="color: green;">{{ category.name }}</h3>
+    </div>
+</div>
+</div>
+
+<div *ngIf="selectedCategory" class="sub-products-container">
+    <div *ngFor="let subProduct of selectedCategory.subProducts" class="sub-product-card">
+      <img [src]="subProduct.image" alt="{{ subProduct.name }}" class="sub-product-image" />
+      <h4 style="color: green;">{{ subProduct.name }}</h4>
+      <div class="sub-product-details">
+        <div class="details-column">
+          <label for="quantity">Quantity:</label>
+          <select id="quantity" [(ngModel)]="subProduct.quantity" name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="details-column">
+          <label for="price">Price:</label>
+          <span>{{calculateTotalPrice(subProduct)}}</span>
+        </div>
+        <button class="add-button" (click)="addToCart(subProduct)">Add</button>
+      </div>
+    </div>
+</div>
+  
