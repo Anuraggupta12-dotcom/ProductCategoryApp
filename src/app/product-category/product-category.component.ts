@@ -22,16 +22,88 @@ export class ProductCategoryComponent {
   categories : Category[] = [
     {
       name: 'Electronics',
-      image: 'assests/electronic.jpg',
+      image: 'assests/categoryImages/electronic.jpeg',
       subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
       {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
     ]
     },
 
     {
       name: 'Kitchen',
-      image: 'assests/electronic.jpg',
+      image: 'assests/kitchen.jpg',
       subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Mobile',
+      image: 'assests/mobile.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Laptop',
+      image: 'assests/laptop.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Flight',
+      image: 'assests/flight.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Furniture',
+      image: 'assests/furniture.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Grocery',
+      image: 'assests/grocery.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
+    ]
+    },
+
+    {
+      name: 'Fashion',
+      image: 'assests/fashion.jpg',
+      subProducts: [
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
+      {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099},
       {name: 'Boat Alpha', image: 'assets/Electronic/boat-alpha.webp', quantity: 1, price: 1099}
     ]
     },
